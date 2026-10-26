@@ -1,0 +1,11 @@
+# 物流订单数据自动分析 Agent - 依赖库清单
+# 安装命令：pip install -r requirements.txt
+
+pandas>=2.0          # 数据读取、清洗、指标计算的核心库
+openpyxl>=3.1        # 让 pandas 能读取 .xlsx 格式的 Excel
+matplotlib>=3.8      # 画柱状图、折线图、饼图
+streamlit>=1.30      # 快速搭建网页可视化界面
+openai>=1.0          # 调用大模型（DeepSeek/豆包/Kimi 都兼容这个接口）
+python-dotenv>=1.0   # 安全管理 API Key（把密钥放在单独文件，不写死在代码里）
+requests>=2.30       # 调用博查联网搜索 API
+jinja2>=3.1          # 生成 HTML 报告的模板引擎

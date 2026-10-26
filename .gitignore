@@ -1,0 +1,13 @@
+# 虚拟环境（每台电脑各自创建，不提交）
+venv/
+
+# 【重要】API 密钥文件绝不提交，避免泄露被盗刷
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 程序生成的产物（可随时重新生成）
+output/charts/*.png
+output/reports/*.xlsx
